@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/intellij+all,gradle,web,eclipse
-# Edit at https://www.toptal.com/developers/gitignore?templates=intellij+all,gradle,web,eclipse
+# Created by https://www.toptal.com/developers/gitignore/api/intellij+all,maven,gradle,web,eclipse
+# Edit at https://www.toptal.com/developers/gitignore?templates=intellij+all,maven,gradle,web,eclipse
 
 ### Eclipse ###
 .metadata
@@ -156,6 +156,25 @@ fabric.properties
 !.idea/codeStyles
 !.idea/runConfigurations
 
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
 ### Web ###
 *.asp
 *.cer
@@ -190,8 +209,6 @@ gradle-app.setting
 
 # Eclipse Gradle plugin generated files
 # Eclipse Core
-.project
 # JDT-specific (Eclipse Java Development Tools)
-.classpath
 
-# End of https://www.toptal.com/developers/gitignore/api/intellij+all,gradle,web,eclipse
+# End of https://www.toptal.com/developers/gitignore/api/intellij+all,maven,gradle,web,eclipse
