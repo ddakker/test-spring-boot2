@@ -1,10 +1,1 @@
-
-pluginManagement {
-    repositories {
-        maven {
-            url "http://192.168.23.203:8081/nexus/content/groups/repositories/"
-        }
-    }
-}
-
 rootProject.name = 'test-gradle-spring-boot'
