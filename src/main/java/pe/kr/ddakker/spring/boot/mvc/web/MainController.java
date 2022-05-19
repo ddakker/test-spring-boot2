@@ -17,9 +17,9 @@ public class MainController {
 
     @GetMapping("/")
     public void index(HttpServletResponse res) throws IOException {
-        logger.info("===== main");
+        logger.info("===== mai1");
         PrintWriter out = res.getWriter();
-        out.println("index");
+        out.println("index 1");
         return;
     }
 }
