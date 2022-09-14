@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8
+
+logging:
+  file:
+    name: /tmp/logs/a.log
+    path: /tmp/logs
+  level:
+    root: info
+  pattern:
+    console: C [%X{username}] %d{yy-MM-dd HH:mm:ss}[%thread] %-5level [%logger.%M:%line] - %msg%n
+    file: F [%X{username}] %d{yy-MM-dd HH:mm:ss}[%thread] %-5level [%logger.%M:%line] - %msg%n
+
+
