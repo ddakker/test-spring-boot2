@@ -1,16 +1,9 @@
 
-pluginManagement {
-    plugins {
-        id 'org.springframework.boot' version '2.5.2'
-        id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-        id 'java'
-    }
-    repositories {
-        url "http://192.168.23.203:8081/nexus/content/groups/repositories/"
-        allowInsecureProtocol = true
-    }
+plugins {
+    id 'org.springframework.boot' version '2.5.2'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
 }
-
 
 
 group = 'pe.kr.ddakker.spring.boot.mvc'
